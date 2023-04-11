@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>File Uploader S3</title>
+        <title>Uploader to cdn.dslvd.xyz</title>
       </Head>
       <main className="container">
         <h1>Upload to cdn.dslvd.xyz</h1>
