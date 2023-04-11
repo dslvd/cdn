@@ -37,7 +37,7 @@ export const FileUploader = () => {
   return (
     <form onSubmit={onSubmit}>
       <input type="file" onChange={onFileChange} />
-      <button type="submit">Submit File</button>
+      <button type="submit">Upload File</button>
     </form>
   );
 };
