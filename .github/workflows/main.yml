@@ -1,0 +1,9 @@
+- name: scarbous/node-runner
+  # You may pin to the exact commit or the version.
+  # uses: Scarbous/node-runner@59905361dcbbfec01673b39ffc5b89df5a2fb916
+  uses: Scarbous/node-runner@1.0.6
+  with:
+    # base dir of
+    dir: # optional, default is /
+    # The name of the npm script to run
+    task: npm start server.js
